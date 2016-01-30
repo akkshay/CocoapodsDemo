@@ -1,0 +1,13 @@
+PODS:
+  - APHorizontalMenu (1.3)
+  - RNBlurModalView (0.1.0)
+
+DEPENDENCIES:
+  - APHorizontalMenu
+  - RNBlurModalView (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  APHorizontalMenu: c5554b29b7266194b449286eb8b38b13b46647ed
+  RNBlurModalView: 0f3fc721d4d1cdb79b39760bc74eb148cf5f5e52
+
+COCOAPODS: 0.39.0

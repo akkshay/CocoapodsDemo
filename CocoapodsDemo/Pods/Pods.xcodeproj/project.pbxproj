@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35B69EB5696FE65487615F91651422B5 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		441AAA805EA7633FD70548A264C612C5 /* RNBlurModalView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD26CDCACA32C68EEE1E4ED7DC3F5EBC /* RNBlurModalView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BD256F863438EC901CB5CED43A3C5C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13C67D79B277825571D8BE513545ED9 /* Foundation.framework */; };
+		5C367C1F0A330A919F89A89D146CCF2A /* APHorizontalMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BAE476E3BF8E593C3FF2ECB9969FBC /* APHorizontalMenu.m */; };
+		6D0D4114695ACD17AE6A767917280C06 /* RNBlurModalView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFFB047F99B689FF0055F332AC6B2F8D /* RNBlurModalView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70BF0AD9E922F70FB9ED3F27EC04435B /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		761483FD86C46055B3EEC1BD80096E09 /* RNBlurModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A263E9F85213A2EF11C9D69FF1D1A2 /* RNBlurModalView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		81C232A9AA55BF425500CAA46253E19A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3060FE5BA7F9157C0828D99C74DB3C7 /* QuartzCore.framework */; };
+		8B84B85C15364800CBEF8DE893340A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13C67D79B277825571D8BE513545ED9 /* Foundation.framework */; };
+		9BDE396221EB2ECAA347FEFA0E71BF4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13C67D79B277825571D8BE513545ED9 /* Foundation.framework */; };
+		A602CA13D20E04065BBB1084938BC46E /* RNBlurModalView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E79E019F8A3B2CAC41D37D8167322E37 /* RNBlurModalView-dummy.m */; };
+		CD97FAF9F884C9F385A304431CC3C53F /* APHorizontalMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1F8AD3218B36261149B86AA3E69A53 /* APHorizontalMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1EFA8C2778C9DAEE60824D9D579E818 /* APHorizontalMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC667792AE850B35EA8AE6C29BC88C /* APHorizontalMenu-dummy.m */; };
+		E25CF50D3E3203FD8BA1827569A524DB /* APHorizontalMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 516A8C360923F31CE12CDFD96A788354 /* APHorizontalMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2C0930F5EA573F45DD0A67E98C34242 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F558DDA920D15B0674796EF35928D4 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7773703CCBD9F7D5B3DCF18B66F797CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B4B147924BDB2DCD620747D564360EF;
+			remoteInfo = RNBlurModalView;
+		};
+		F2B6E07952E07AD36F9887760BD18E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D013241B4B12788047727D4257CCA4DC;
+			remoteInfo = APHorizontalMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C58829925236D5A511F67A24904687 /* APHorizontalMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APHorizontalMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1926A9C31CF0EFC316FA011DC6163B6C /* RNBlurModalView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNBlurModalView.xcconfig; sourceTree = "<group>"; };
+		215B88C06C5A093A038E6F0FA4DDE947 /* RNBlurModalView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNBlurModalView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		2E31082F69192E62D2B8B94AEAD8DD92 /* APHorizontalMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = APHorizontalMenu.modulemap; sourceTree = "<group>"; };
+		36509A7186D0DA79D2EEB1D83A1851B8 /* RNBlurModalView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RNBlurModalView.modulemap; sourceTree = "<group>"; };
+		36513F8F46B730D0B898887138B5F30A /* APHorizontalMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APHorizontalMenu.xcconfig; sourceTree = "<group>"; };
+		516A8C360923F31CE12CDFD96A788354 /* APHorizontalMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APHorizontalMenu-umbrella.h"; sourceTree = "<group>"; };
+		5B1F8AD3218B36261149B86AA3E69A53 /* APHorizontalMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APHorizontalMenu.h; path = Classes/APHorizontalMenu.h; sourceTree = "<group>"; };
+		74680A01D45FAB7F3FC028D3FC1CEF31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75F2A42C3C449BE229E96603706B16AD /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7D521620CABE370581B980C677E1D040 /* RNBlurModalView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNBlurModalView-prefix.pch"; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		98A263E9F85213A2EF11C9D69FF1D1A2 /* RNBlurModalView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RNBlurModalView.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDBED0EF9D39EFA932007C3DD0096201 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C13C67D79B277825571D8BE513545ED9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C3EC667792AE850B35EA8AE6C29BC88C /* APHorizontalMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APHorizontalMenu-dummy.m"; sourceTree = "<group>"; };
+		C8F558DDA920D15B0674796EF35928D4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CFFB047F99B689FF0055F332AC6B2F8D /* RNBlurModalView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNBlurModalView-umbrella.h"; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DD26CDCACA32C68EEE1E4ED7DC3F5EBC /* RNBlurModalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNBlurModalView.h; sourceTree = "<group>"; };
+		E79E019F8A3B2CAC41D37D8167322E37 /* RNBlurModalView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNBlurModalView-dummy.m"; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3060FE5BA7F9157C0828D99C74DB3C7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F4A332B567A4B7796CE630BC75083DA0 /* APHorizontalMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APHorizontalMenu-prefix.pch"; sourceTree = "<group>"; };
+		F9BAE476E3BF8E593C3FF2ECB9969FBC /* APHorizontalMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APHorizontalMenu.m; path = Classes/APHorizontalMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417368C31BD04DCB9CADE800B29AB57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD256F863438EC901CB5CED43A3C5C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70AEC6AF02EC479B4F9555768DD95EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDE396221EB2ECAA347FEFA0E71BF4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D685B3BD9917CCCFB7C95673403543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C0930F5EA573F45DD0A67E98C34242 /* Accelerate.framework in Frameworks */,
+				8B84B85C15364800CBEF8DE893340A5C /* Foundation.framework in Frameworks */,
+				81C232A9AA55BF425500CAA46253E19A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				228F7BACFEA08F868AEFBB05323FFF1D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		228F7BACFEA08F868AEFBB05323FFF1D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C8F558DDA920D15B0674796EF35928D4 /* Accelerate.framework */,
+				C13C67D79B277825571D8BE513545ED9 /* Foundation.framework */,
+				F3060FE5BA7F9157C0828D99C74DB3C7 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2B02ECFCF8215BBDCB1F713E33478A21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E31082F69192E62D2B8B94AEAD8DD92 /* APHorizontalMenu.modulemap */,
+				36513F8F46B730D0B898887138B5F30A /* APHorizontalMenu.xcconfig */,
+				C3EC667792AE850B35EA8AE6C29BC88C /* APHorizontalMenu-dummy.m */,
+				F4A332B567A4B7796CE630BC75083DA0 /* APHorizontalMenu-prefix.pch */,
+				516A8C360923F31CE12CDFD96A788354 /* APHorizontalMenu-umbrella.h */,
+				74680A01D45FAB7F3FC028D3FC1CEF31 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APHorizontalMenu";
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				B9644E57C0E859782B808FBD377AF80C /* Pods */,
+				981C9CEF3556BF39E8CBC4BF76665384 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		981C9CEF3556BF39E8CBC4BF76665384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C58829925236D5A511F67A24904687 /* APHorizontalMenu.framework */,
+				75F2A42C3C449BE229E96603706B16AD /* Pods.framework */,
+				215B88C06C5A093A038E6F0FA4DDE947 /* RNBlurModalView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B9644E57C0E859782B808FBD377AF80C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC18D51E715DD5F1EDB87D989E46B4 /* APHorizontalMenu */,
+				FF3903808D8E88FCD9125D60E637515C /* RNBlurModalView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C53C2449E70DC8EA461A11BEE3E4587A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDBED0EF9D39EFA932007C3DD0096201 /* Info.plist */,
+				36509A7186D0DA79D2EEB1D83A1851B8 /* RNBlurModalView.modulemap */,
+				1926A9C31CF0EFC316FA011DC6163B6C /* RNBlurModalView.xcconfig */,
+				E79E019F8A3B2CAC41D37D8167322E37 /* RNBlurModalView-dummy.m */,
+				7D521620CABE370581B980C677E1D040 /* RNBlurModalView-prefix.pch */,
+				CFFB047F99B689FF0055F332AC6B2F8D /* RNBlurModalView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RNBlurModalView";
+			sourceTree = "<group>";
+		};
+		E0EC18D51E715DD5F1EDB87D989E46B4 /* APHorizontalMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5B1F8AD3218B36261149B86AA3E69A53 /* APHorizontalMenu.h */,
+				F9BAE476E3BF8E593C3FF2ECB9969FBC /* APHorizontalMenu.m */,
+				2B02ECFCF8215BBDCB1F713E33478A21 /* Support Files */,
+			);
+			path = APHorizontalMenu;
+			sourceTree = "<group>";
+		};
+		FF3903808D8E88FCD9125D60E637515C /* RNBlurModalView */ = {
+			isa = PBXGroup;
+			children = (
+				DD26CDCACA32C68EEE1E4ED7DC3F5EBC /* RNBlurModalView.h */,
+				98A263E9F85213A2EF11C9D69FF1D1A2 /* RNBlurModalView.m */,
+				C53C2449E70DC8EA461A11BEE3E4587A /* Support Files */,
+			);
+			path = RNBlurModalView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7BA4C5480701935E03A3D651DF75C6E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0D4114695ACD17AE6A767917280C06 /* RNBlurModalView-umbrella.h in Headers */,
+				441AAA805EA7633FD70548A264C612C5 /* RNBlurModalView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2E52315AFE1EA52C450E517FD78B14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25CF50D3E3203FD8BA1827569A524DB /* APHorizontalMenu-umbrella.h in Headers */,
+				CD97FAF9F884C9F385A304431CC3C53F /* APHorizontalMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA2A3907049265611313EDE60DCAF89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BF0AD9E922F70FB9ED3F27EC04435B /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46187FE0364C6C5527FDAE7B267316FC /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F8DFB5B7C13144C7635C32C71FF5C1 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				2DCDCCB43C5EB3ECA6FB51B7B62D98B8 /* Sources */,
+				A70AEC6AF02EC479B4F9555768DD95EF /* Frameworks */,
+				FBA2A3907049265611313EDE60DCAF89 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4191BD96C57CBE8FF0EDF956EC969570 /* PBXTargetDependency */,
+				8E2364F5FCE40A8D1BCFE4A44A15DC8A /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 75F2A42C3C449BE229E96603706B16AD /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B4B147924BDB2DCD620747D564360EF /* RNBlurModalView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471D0FE933506B02C3C0C2EA2E17E3BD /* Build configuration list for PBXNativeTarget "RNBlurModalView" */;
+			buildPhases = (
+				F932E90697A730EA7511F92154597274 /* Sources */,
+				D1D685B3BD9917CCCFB7C95673403543 /* Frameworks */,
+				7BA4C5480701935E03A3D651DF75C6E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNBlurModalView;
+			productName = RNBlurModalView;
+			productReference = 215B88C06C5A093A038E6F0FA4DDE947 /* RNBlurModalView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D013241B4B12788047727D4257CCA4DC /* APHorizontalMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A0D6A769E87D99DFEF430C9ED64B70 /* Build configuration list for PBXNativeTarget "APHorizontalMenu" */;
+			buildPhases = (
+				2466112B139841E4139B0F23A605F589 /* Sources */,
+				417368C31BD04DCB9CADE800B29AB57F /* Frameworks */,
+				DD2E52315AFE1EA52C450E517FD78B14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APHorizontalMenu;
+			productName = APHorizontalMenu;
+			productReference = 00C58829925236D5A511F67A24904687 /* APHorizontalMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 981C9CEF3556BF39E8CBC4BF76665384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D013241B4B12788047727D4257CCA4DC /* APHorizontalMenu */,
+				46187FE0364C6C5527FDAE7B267316FC /* Pods */,
+				7B4B147924BDB2DCD620747D564360EF /* RNBlurModalView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2466112B139841E4139B0F23A605F589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1EFA8C2778C9DAEE60824D9D579E818 /* APHorizontalMenu-dummy.m in Sources */,
+				5C367C1F0A330A919F89A89D146CCF2A /* APHorizontalMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCDCCB43C5EB3ECA6FB51B7B62D98B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B69EB5696FE65487615F91651422B5 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F932E90697A730EA7511F92154597274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A602CA13D20E04065BBB1084938BC46E /* RNBlurModalView-dummy.m in Sources */,
+				761483FD86C46055B3EEC1BD80096E09 /* RNBlurModalView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4191BD96C57CBE8FF0EDF956EC969570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APHorizontalMenu;
+			target = D013241B4B12788047727D4257CCA4DC /* APHorizontalMenu */;
+			targetProxy = F2B6E07952E07AD36F9887760BD18E89 /* PBXContainerItemProxy */;
+		};
+		8E2364F5FCE40A8D1BCFE4A44A15DC8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RNBlurModalView;
+			target = 7B4B147924BDB2DCD620747D564360EF /* RNBlurModalView */;
+			targetProxy = 7773703CCBD9F7D5B3DCF18B66F797CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01E01FA697CE402D8136AE1AA638BCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36513F8F46B730D0B898887138B5F30A /* APHorizontalMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APHorizontalMenu/APHorizontalMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APHorizontalMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APHorizontalMenu/APHorizontalMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = APHorizontalMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ECAFF6B2B33223427E28DB01A4D6AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1926A9C31CF0EFC316FA011DC6163B6C /* RNBlurModalView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RNBlurModalView/RNBlurModalView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNBlurModalView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNBlurModalView/RNBlurModalView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RNBlurModalView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2551F5A685A80B3DF32A389C4F2E0F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3620F1D2C58E210E4B0E1E4FBFB4D21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5097DDBF8A26A7B7EE963EAF75109556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36513F8F46B730D0B898887138B5F30A /* APHorizontalMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APHorizontalMenu/APHorizontalMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APHorizontalMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APHorizontalMenu/APHorizontalMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = APHorizontalMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B94A74C9CF65788B172D89F3E5CDA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1926A9C31CF0EFC316FA011DC6163B6C /* RNBlurModalView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RNBlurModalView/RNBlurModalView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNBlurModalView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNBlurModalView/RNBlurModalView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RNBlurModalView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471D0FE933506B02C3C0C2EA2E17E3BD /* Build configuration list for PBXNativeTarget "RNBlurModalView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ECAFF6B2B33223427E28DB01A4D6AE8 /* Debug */,
+				8B94A74C9CF65788B172D89F3E5CDA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A0D6A769E87D99DFEF430C9ED64B70 /* Build configuration list for PBXNativeTarget "APHorizontalMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E01FA697CE402D8136AE1AA638BCAC /* Debug */,
+				5097DDBF8A26A7B7EE963EAF75109556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F8DFB5B7C13144C7635C32C71FF5C1 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3620F1D2C58E210E4B0E1E4FBFB4D21E /* Debug */,
+				2551F5A685A80B3DF32A389C4F2E0F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
